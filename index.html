@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsive</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img class="img rounded-circle" src="image/img/logo.png" width="70px" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Type de produit</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nos service</a></li>
+                  <li><a class="dropdown-item" href="#">Produis</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link disabled">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="index.html" href="#">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Produits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    
+    <br>
+    <div class="container">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Rechercher">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+    
+    <br>
+    <div class="container-fluid">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img height="250px" src="image/img/pub.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img height="250px" src="image/img/pub2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img height="250px" src="image/img/pub3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    
+    <br>
+  
+    <div class="container-fluid text-center">
+      <p class="h1">Nos catégories</p>
+    </div>
+    
+    <!-- Conteneur avec Scrollbar -->
+    <div class="container-fluid">
+      <div class="d-flex flex-nowrap overflow-auto p-2" style="scrollbar-width: thin;">
+        
+        <!-- Carte 1 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/img/dont.png" class="card-img-top img-fluid" alt="Catégorie 1">
+          
+        </div>
+    
+        <!-- Carte 2 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/img/dont2.png" class="card-img-top img-fluid" alt="Catégorie 2">
+        </div>
+    
+        <!-- Carte 3 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/img/dont4.png" class="card-img-top img-fluid" alt="Catégorie 3">
+          
+        </div>
+    
+       
+    
+      </div>
+    </div>
+    
+    <br>
+
+    <div class="container-fluid text-center">
+      <p class="h1">Des produits </p>
+    </div>
+    
+    <!-- Conteneur avec Scrollbar -->
+    <div class="container-fluid">
+      <div class="d-flex flex-nowrap overflow-auto p-2" style="scrollbar-width: thin;">
+        
+        <!-- Carte 1 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/produit/Mini micro servo moteur 9g SG90.jpg" class="card-img-top img-fluid" alt="Catégorie 1">
+          <div class="card-body text-center">
+            <br>
+            <h5 class="card-title">Mini micro servo moteur 9g SG90</h5>
+           
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+    
+        <!-- Carte 2 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/produit/Capteur de température et d'humidité.jpg" class="card-img-top img-fluid" alt="Catégorie 2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Capteur de température et d'humidité</h5>
+            
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+    
+        <!-- Carte 3 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/produit/Regulateur de moteur 9A 0-220V.jpg" class="card-img-top img-fluid" alt="Catégorie 3">
+          <div class="card-body text-center">
+            <br>
+            <h5 class="card-title">Regulateur de moteur 9A 0-220V</h5>
+           
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+          
+        </div>
+    
+        <!-- Carte 4 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/produit/Plaque d'essai 400 points.jpg" class="card-img-top img-fluid" alt="Catégorie 4">
+          <div class="card-body text-center">
+            <br>
+            <h5 class="card-title">Plaque d'essai 400 points</h5>
+           
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+    
+        <!-- Carte 5 -->
+        <div class="card mx-2" style="width: 18rem; min-width: 250px;">
+          <img src="image/produit/UNO R3 SMD-Cable.png" class="card-img-top img-fluid" alt="Catégorie 5">
+          <div class="card-body text-center">
+            <br><br>
+            <h5 class="card-title">UNO R3 SMD-Cable</h5>           
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <br>
+    <footer class="bg-dark text-white pt-4">
+      <div class="container">
+        <div class="row">
+          
+          <!-- Colonne 1 : À propos -->
+          <div class="col-md-4">
+            <h5>À propos</h5>
+            <p>Nous sommes une équipe passionnée par la création de projets robotiques, le développement de sites web et la vente de matériel électronique, comme les cartes Arduino, les capteurs et bien plus encore.</p>
+          </div>
+    
+          <!-- Colonne 2 : Liens rapides -->
+          <div class="col-md-4">
+            <h5>Liens rapides</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Accueil</a></li>
+              <li><a href="#" class="text-white">produis</a></li>
+              <li><a href="#" class="text-white">Portfolio</a></li>
+              <li><a href="#" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+    
+          <!-- Colonne 3 : Contact -->
+          <div class="col-md-4">
+            <h5>Contact</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Rabat, Maroc</p>
+            <p><i class="fas fa-phone"></i> +212 7 17 70 76 77</p>
+            <p><i class="fas fa-envelope"></i> contact@sof-tech.com</p>
+          </div>
+          
+        </div>
+    
+        <!-- Ligne des réseaux sociaux -->
+        <div class="text-center mt-3">
+          <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="text-center mt-3 pb-3">
+          <p class="mb-0">&copy; <span id="year"></span> SOF-TECH. Tous droits réservés.</p>
+        </div>
+    
+      </div>
+    </footer>
+    
+    <!-- Script pour mettre à jour l'année -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
+    <!-- Ajout de FontAwesome pour les icônes -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
